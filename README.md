@@ -8,13 +8,13 @@ This project showcases the creation of the same wave-breaker tetrapod miniature 
 
 A tetrapod can be constructed in CAD by rotating one arm from a flag-shape, then duplicating it and placing the copy at an angle equal to the dihedral angle of a tetrahedron (acos(-1/3)) about the center. The remaining two arms are created by cloning one arm about the axis of the other in a circular pattern.
 
-![Screenshot 1](images/Screenshot 2023-11-17 at 12.15.08.png)
+![Screenshot 1](images/Screenshot%202023-11-17%20at%2012.15.08.png)
 
-![Screenshot 2](images/Screenshot 2023-11-17 at 12.15.55.png)
+![Screenshot 2](images/Screenshot%202023-11-17%20at%2012.15.55.png)
 
 This repository uses a tetrapod with arm length 40, and arm end diameter 10. The draft angle is set such that the outline of two arms meet at a 90 deg angle when viewed normal to their plane. A 1 mm chamfer is applied to the end of the arm when possible.
 
-![Screenshot 3](images/Screenshot 2023-11-17 at 12.15.16.png)
+![Screenshot 3](images/Screenshot%202023-11-17%20at%2012.15.16.png)
 
 ## FDM Printed Tetrapod
 
@@ -46,9 +46,9 @@ Each arm of the tetrapod is unrolled to a fan-shape, and cut out of card. Here, 
 
 The unrolled shape of a tetrapod truncated cone can be developed with sketch tools, or here I've also achieved the same shape using a little hack. I recreate the surface with the Sheet Metal workspace in Fusion 360, and let the software unroll (unfold) it. Any surface with null curvature should be reproducible with this technique.
 
-![Screenshot 4](images/Screenshot 2023-11-17 at 12.18.44.png)
+![Screenshot 4](images/Screenshot%202023-11-17%20at%2012.18.44.png)
 
-![Screenshot 5](images/Screenshot 2023-11-17 at 12.19.45.png)
+![Screenshot 5](images/Screenshot%202023-11-17%20at%2012.19.45.png)
 
 ## Cloth Tetrapod
 
