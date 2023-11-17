@@ -2,56 +2,120 @@
 
 This project showcases the creation of the same wave-breaker tetrapod miniature using various materials and manufacturing techniques.
 
+![Group photo](images/IMG_5607.jpg)
+
 ## Overview
 
 A tetrapod can be constructed in CAD by rotating one arm from a flag-shape, then duplicating it and placing the copy at an angle equal to the dihedral angle of a tetrahedron (acos(-1/3)) about the center. The remaining two arms are created by cloning one arm about the axis of the other in a circular pattern.
 
+![Screenshot 1](images/Screenshot 2023-11-17 at 12.15.08.png)
+
+![Screenshot 2](images/Screenshot 2023-11-17 at 12.15.55.png)
+
+This repository uses a tetrapod with arm length 40, and arm end diameter 10. The draft angle is set such that the outline of two arms meet at a 90 deg angle when viewed normal to their plane. A 1 mm chamfer is applied to the end of the arm when possible.
+
+![Screenshot 3](images/Screenshot 2023-11-17 at 12.15.16.png)
+
 ## FDM Printed Tetrapod
 
-- **Description**: The simplest file in the set, representing the 3D shape of the final product as an STL file.
-- **Printing**: A 3D printer reproduces the shape in one shot, requiring no assembly or post-processing.
-- **Orientation**: There is one optimal orientation for printing to avoid the need for supports.
-- **Variations**: A two-color version is available, featuring a segmented outer shell and a differently-colored inner part.
+![FDM Tetrapod](images/IMG_5603.jpeg)
+
+This is the simplest file in the set. It is simply the 3D shape of the final product as an STL file. A 3D printer is able to reproduce it in one shot, and no assembly or post-processing is needed.
+
+Notice that there is only one, somewhat counter-intuitive, way to orient the object for printing, that doesn't require supports.
+
+A two-color variation is available, with a segmented outer shell and a differently-colored inner part.
 
 ## SLA Printed Tetrapod
 
-- **Source File**: Utilizes the same file as FDM printing.
-- **Post-Processing**: Requires removal of supports. The shape has a considerable inner volume that must be left hollow and drained.
+The same simple source file can be used, as for FDM printing. Some post-processing is needed, mainly to remove supports. The shape has considerable inner volume, which must be left hollowed, and drained.
 
 ## Laser Cut Tetrapod
 
-- **Pieces**: 14 interlocking pieces cut from 3 mm thick materials like plywood or acrylic.
-- **Design Considerations**: Slots in mating pieces are sized to account for material thickness, cutting tool kerf, and the angle of intersection.
+![Laser Cut Tetrapod](images/IMG_5604.jpeg)
+
+14 interlocking pieces are cut out of 3 mm thick flat stock, such as plywood or acrylic. The slots in the mating pieces must be sized to account for the thickness of the material, the kerf of the cutting tool, and the angle they butt against each other at.
 
 ## Papercraft Tetrapod
 
-- **Construction**: Each arm is unrolled to a fan-shape and cut from cardstock.
-- **Assembly**: Uses tape or tabs and slots for joining.
-- **Technique**: Developed using sketch tools or recreated in Fusion 360's Sheet Metal workspace for unfolding.
+![Papercraft Tetrapod](images/IMG_5606.jpeg)
+
+Each arm of the tetrapod is unrolled to a fan-shape, and cut out of card. Here, tape is used to join the pieces together, but tabs and slots could be used.
+
+The unrolled shape of a tetrapod truncated cone can be developed with sketch tools, or here I've also achieved the same shape using a little hack. I recreate the surface with the Sheet Metal workspace in Fusion 360, and let the software unroll (unfold) it. Any surface with null curvature should be reproducible with this technique.
+
+![Screenshot 4](images/Screenshot 2023-11-17 at 12.18.44.png)
+
+![Screenshot 5](images/Screenshot 2023-11-17 at 12.19.45.png)
 
 ## Cloth Tetrapod
 
-- **Template**: Uses the unrolled shape from the papercraft version.
-- **Sewing**: Sown with a sewing machine, inside out, and then reversed for stuffing.
-- **Finishing**: Arms are sewn closed with extra cloth for allowance.
-- **Details**: Challenges include aligning fabric during sewing and capping off cones or cylinders effectively.
-- **Accessories**: Eye-shaped buttons created using the FDM printer.
+![Cloth Tetrapod 1](images/IMG_5605.jpeg)
+
+The same unrolled shape from the papercraft tetrapod was used as a template to cut cloth. 10-20 mm flanges were left outside the lines, to have some fabric outside the seams. The four pieces of cloth were sewn together with a sewing machine, inside out, and then all reversed through one remaining seam, which was hand-sewn together after stuffing.
+
+![Cloth Tetrapod 2](images/IMG_5567.jpeg)
+
+![Cloth Tetrapod 3](images/IMG_5568.jpeg)
+
+![Cloth Tetrapod 4](images/IMG_5569.jpeg)
+
+![Cloth Tetrapod 5](images/IMG_5571.jpeg)
+
+![Cloth Tetrapod 6](images/IMG_5572.jpeg)
+
+![Cloth Tetrapod 7](images/IMG_5573.jpeg)
+
+![Cloth Tetrapod 8](images/IMG_5575.jpeg)
+
+The ends of the arms were sewn closed with a bit of extra cloth outside the marked line to account for the end. For lack of a better technique, this was done by eye.
+
+Must develop a better way to keep the two pieces of cloth aligned when sewing a seam, and better ways to cap off a cone or a cylinder.
+
+![Cloth Tetrapod 9](images/IMG_5602.jpeg)
+
+Eye-shaped buttons were printed on the FDM printer by printing a single-layer black shape on the print plate, then printing a button over it in white.
 
 ## Plaster of Paris Tetrapod
 
-- **Mold**: Tetrahedral four-piece FDM printed mold.
-- **Casting**: Uses Plaster of Paris, which is thick enough to not require gaskets.
-- **Finishing**: Pour flute is cut off and sanded; seams and flashing can also be sanded.
+![Plaster of Paris Tetrapod 1](images/IMG_5590.jpeg)
+
+A tetrahedral four-piece mold is FDM printed and used to cast a tetrapod. The mold could be cut in different ways, but this way of dividing it has relatively little steep parting angles.
+
+![Plaster of Paris Tetrapod 2](images/IMG_5582.jpeg)
+
+Notice you only need to design the negative of one sixth of one arm, and fill out the rest by mirroring.
+
+Plaster of Paris is quite thick, so no gaskets are needed. The mold is held together and tightened with friction-fit rings, similar to those iron rings holding old-timey barrels together.
+
+![Plaster of Paris Tetrapod 3](images/IMG_5584.jpeg)
+
+![Plaster of Paris Tetrapod 4](images/IMG_5585.jpeg)
+
+![Plaster of Paris Tetrapod 5](images/IMG_5587.jpeg)
+
+The flute created by the pour is cut off with a saw and sanded. The cast replicates the 3D printed layer lines, and the seams have visible flashing, which can be sanded off.
+
+![Plaster of Paris Tetrapod 6](images/IMG_5588.jpeg)
 
 ## Candle Tetrapod
 
-- **Mold**: Utilizes the same FDM printed mold as the plaster version.
-- **Wick**: Wick can be strung along the angles of the tetrapod arms.
-- **Material**: Cast using paraffin, which melts at around 50°C and is safe for PLA molds.
+The same FDM printed mold can be used to cast a four-way candle. Wick (rolled up tissue paper or cloth) can be strung along all four angles of the tetrapod arms by hooking two pieces around each other. A version of the mold with slots to hold the wick is provided.
 
-## Upcoming Variations
+Paraffin melts around 50 deg C and the volume is not great, so pouring melted wax into a mold 3D printed in PLA plastic is not an issue. It doesn't have enough energy to melt the mold.
 
-- Vacuum Formed Tetrapod
-- CNC Machined Tetrapod
-- Water Jet Tetrapod
-- Lathe-Turned Tetrapod
+## Vacuum Formed Tetrapod
+
+To do
+
+## CNC Machined Tetrapod
+
+To do
+
+## Water Jet Tetrapod
+
+To do
+
+## Lathe-Turned Tetrapod
+
+To do
