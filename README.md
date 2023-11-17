@@ -2,7 +2,7 @@
 
 This project showcases the creation of the same wave-breaker tetrapod miniature using various materials and manufacturing techniques.
 
-![Group photo](images/IMG_5607.jpg)
+![Group photo](images/IMG_5607.jpeg)
 
 ## Overview
 
@@ -35,6 +35,8 @@ The same simple source file can be used, as for FDM printing. Some post-processi
 ![Laser Cut Tetrapod](images/IMG_5604.jpeg)
 
 14 interlocking pieces are cut out of 3 mm thick flat stock, such as plywood or acrylic. The slots in the mating pieces must be sized to account for the thickness of the material, the kerf of the cutting tool, and the angle they butt against each other at.
+
+The pieces must be assembled in a certain order. 
 
 ## Papercraft Tetrapod
 
