@@ -28,7 +28,17 @@ A two-color variation is available, with a segmented outer shell and a different
 
 ## SLA Printed Tetrapod
 
-The same simple source file can be used, as for FDM printing. Some post-processing is needed, mainly to remove supports. The shape has considerable inner volume, which must be left hollowed, and drained.
+![SLA Tetrapod](images/IMG_5653.jpg)
+
+SLA printing can achieve high resolution and intricate details, so a skeleton tetrapod, filled with a tetrahedral lattice formed of 1:10 scale mini tetrapods was printed. Large solid volumes in SLA prints must be hollowed out and one must be mindful of the draining of such hollow cavities. These issues were circumvented by using a design with only thin, skeleton-like elements.
+
+![detail of the tetrapod lattice](images/IMG_5654.jpeg)
+
+Some post-processing is involved. The part must be cleaned of uncured resin, and the many support structures must be cut off and cleaned.
+
+![printing with SLA printer](images/IMG_5649.jpeg)
+
+![print with supports](images/IMG_5650.jpeg)
 
 ## Laser Cut Tetrapod
 
@@ -36,19 +46,23 @@ The same simple source file can be used, as for FDM printing. Some post-processi
 
 14 interlocking pieces are cut out of 3 mm thick flat stock, such as plywood or acrylic. The slots in the mating pieces must be sized to account for the thickness of the material, the kerf of the cutting tool, and the angle they butt against each other at.
 
-The pieces must be assembled in a certain order. 
+Produce 2 x L, 2 x Ma, 2 x Mb, 4 x S, 4 x Cap pieces.
+
+The pieces must be assembled in a certain order.
+
+![Laser Cut Tetrapod with different pieces colored](Screenshot%202023-11-17%20at%2012.17.07.png)
 
 ## Papercraft Tetrapod
-
+ 
 ![Papercraft Tetrapod](images/IMG_5606.jpeg)
 
 Each arm of the tetrapod is unrolled to a fan-shape, and cut out of card. Here, tape is used to join the pieces together, but tabs and slots could be used.
 
 The unrolled shape of a tetrapod truncated cone can be developed with sketch tools, or here I've also achieved the same shape using a little hack. I recreate the surface with the Sheet Metal workspace in Fusion 360, and let the software unroll (unfold) it. Any surface with null curvature should be reproducible with this technique.
 
-![Screenshot 4](images/Screenshot%202023-11-17%20at%2012.18.44.png)
+![one arm unroller with sketch tools](images/Screenshot%202023-11-17%20at%2012.18.44.png)
 
-![Screenshot 5](images/Screenshot%202023-11-17%20at%2012.19.45.png)
+![one arm unrolled with sheet metal workspace](images/Screenshot%202023-11-17%20at%2012.19.45.png)
 
 ## Cloth Tetrapod
 
@@ -102,9 +116,11 @@ The flute created by the pour is cut off with a saw and sanded. The cast replica
 
 ## Candle Tetrapod
 
-The same FDM printed mold can be used to cast a four-way candle. Wick (rolled up tissue paper or cloth) can be strung along all four angles of the tetrapod arms by hooking two pieces around each other. A version of the mold with slots to hold the wick is provided.
+The same FDM printed mold can be used to cast a four-way candle. Wick (rolled up tissue paper or cloth) can be strung along all four anxes of the tetrapod arms by hooking two pieces around each other. A version of the mold with slots to hold the wick is provided.
 
 Paraffin melts around 50 deg C and the volume is not great, so pouring melted wax into a mold 3D printed in PLA plastic is not an issue. It doesn't have enough energy to melt the mold.
+
+It's best to heat the wax until it all melts, then let it cool until near melting point again. Look for it to get white around the edges when stirring. The wax can leak out between the mold pieces when too hot, but when it's cooler, it becomes viscous when meeting with the mold surface, and doesn't have enough time to leak.
 
 ## Vacuum Formed Tetrapod
 
@@ -120,4 +136,12 @@ To do
 
 ## Lathe-Turned Tetrapod
 
-To do
+A desktop lathe was used to turn wooden cones. The taper of the cone is not critical, but I like to set it at 9.7 deg. (This makes the outline of two adjacent arms meet at a straight angle)
+
+A 3D printed jig is used to cut the straight faces where the arms meet, and to cut the cone off at the correct length. A hand saw is used to rough the cut, then a disc sander. The table and the sanding surface have been set to 90 deg, and the jig has a surface at 90 degrees to the cut.
+
+The taper is consistent between arms turned in the same batch, but won't be accurate between batches. For that reason, the jig doesn't have a conical hole, but a cylinder. The fat end of the work piece registers with the entrace of the cylindrical hole, and the thin end is aligned axially with a compliant spacing ring. The ring touches the cone and the cylinder at three points each, ensuring aligment.
+
+The ring and the work piece are fit to the jig with a friction fit.
+
+
