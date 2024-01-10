@@ -2,7 +2,7 @@
 
 This project showcases the creation of the same wave-breaker tetrapod miniature using various materials and manufacturing techniques.
 
-![Group photo](images/IMG_5607.jpeg)
+![Group photo](/images/IMG_5607.jpeg)
 
 ## Overview
 
